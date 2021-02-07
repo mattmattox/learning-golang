@@ -2,6 +2,10 @@ package main
 
 import "fmt"
 
+const ok = true
+
 func main() {
-	fmt.Println("Hello Gopher!")
+	var ok = false
+	var hello = "Hello!"
+	fmt.Println(hello, ok)
 }
